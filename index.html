@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Nesting Tree</title>
+  <!-- Link ke CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="https://dcassetcdn.com/design_img/629971/434218/434218_4028818_629971_image.jpg">
+
+</head>
+
+<!-- POPUP LEARN MORE -->
+<div id="popup-whatsapp" class="popup hidden">
+  <div class="popup-content">
+    <h3>Need More Information?</h3>
+    <p>Chat directly with our Customer Service for full details.</p>
+
+    <a href="https://wa.me/6288802105250?text=Halo,%20saya%20ingin%20bertanya%20lebih%20lanjut%20tentang%20program%20daycare."
+       target="_blank"
+       class="popup-btn">
+       Chat via WhatsApp
+    </a>
+
+    <button id="close-popup" class="popup-close">Close</button>
+  </div>
+</div>
+
+<body class="min-h-screen bg-beige-50 font-sans">
+
+  <!-- Header/Navigation -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <div class="w-10 h-10 mr-3">
+          <img src="https://dcassetcdn.com/design_img/629971/434218/434218_4028818_629971_image.jpg" alt="The Nesting Tree Logo" class="w-full h-full object-contain">
+        </div>
+        <h1 class="text-2xl font-bold text-green-800">The Nesting Tree</h1>
+      </div>
+      <nav class="hidden md:flex space-x-8">
+        <a href="#home" class="text-green-700 hover:text-green-500 transition-colors">Home</a>
+        <a href="#about" class="text-green-700 hover:text-green-500 transition-colors">About</a>
+        <a href="#programs" class="text-green-700 hover:text-green-500 transition-colors">Programs</a>
+        <a href="#testimonials" class="text-green-700 hover:text-green-500 transition-colors">Testimonials</a>
+        <a href="#staff" class="text-green-700 max-w-2xl mx-auto">Staff</a>
+        <a href="#gallery" class="text-green-700 max-w-2xl mx-auto">Facility</a>
+        <a href="#contact" class="text-green-700 hover:text-green-500 transition-colors">Contact</a>
+      </nav>
+        <a href="https://wa.me/6288802105250?text=Halo,%20saya%20ingin%20menjadwalkan%20tour%20fasilitas%20daycare."
+        target="_blank"
+        class="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700 transition-colors block">
+        Schedule a Tour
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-gradient-to-r from-green-50 to-beige-100 py-20">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h2 class="text-4xl md:text-5xl font-bold text-green-800 mb-6">
+          Where Little Ones <span class="text-yellow-500">Grow & Thrive</span>
+        </h2>
+        <p class="text-lg text-green-700 mb-8">
+          A safe, nurturing environment where children discover, learn, and grow through play-based education and compassionate care.
+        </p>
+        <div class="flex space-x-4">
+          <a href="https://wa.me/6288802105250?text=Halo,%20saya%20ingin%20daftar%20program%20The%20Nesting%20Tree%20Daycare." 
+            target="_blank"
+            class="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 transition-colors block">
+            Enroll Now
+          </a>
+
+          <button class="border-2 border-green-600 text-green-700 px-8 py-3 rounded-full hover:bg-green-50 transition-colors">
+            Learn More
+          </button>
+        </div>
+      </div>
+
+<!-- Slider -->
+<div class="slider">
+  <div class="slides">
+      <div class="slide"><img src="Photos\Gemini_Generated_Image_9qta1x9qta1x9qta.png" alt="Image 1"></div>
+      <div class="slide"><img src="Photos\WhatsApp Image 2025-09-25 at 19.20.09_2cfd74d8.jpg" alt="Image 2"></div>
+      <div class="slide"><img src="Photos\Gemini_Generated_Image_pp6p63pp6p63pp6p.png"></div>
+      <div class="slide"><img src="Photos\puput guru.jpg" alt="Image 4"></div>
+      <div class="slide"><img src="Photos\arin guru.jpg" alt="Image 5"></div>
+  </div>
+</div>
+</section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">Our Caring Environment</h2>
+        <p class="text-green-700 max-w-2xl mx-auto">
+          At The Nesting Tree, we provide a home-like atmosphere where children feel safe, loved, and encouraged to explore their world.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 bg-beige-50 rounded-2xl">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🌿</span>
+          </div>
+          <h3 class="text-xl font-semibold text-green-800 mb-3">Nature-Inspired Learning</h3>
+          <p class="text-green-700">
+            Our curriculum incorporates nature and outdoor activities to foster curiosity and connection with the natural world.
+          </p>
+        </div>
+        
+        <div class="text-center p-6 bg-beige-50 rounded-2xl">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">👨‍👩‍👧‍👦</span>
+          </div>
+          <h3 class="text-xl font-semibold text-green-800 mb-3">Family-Centered Care</h3>
+          <p class="text-green-700">
+            We partner with families to create consistent, loving care that respects each child's unique needs and background.
+          </p>
+        </div>
+        
+        <div class="text-center p-6 bg-beige-50 rounded-2xl">
+          <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="text-2xl">🎨</span>
+          </div>
+          <h3 class="text-xl font-semibold text-green-800 mb-3">Creative Development</h3>
+          <p class="text-green-700">
+            Through art, music, and imaginative play, we encourage self-expression and cognitive development.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section id="programs" class="py-20 bg-green-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">Our Programs</h2>
+        <p class="text-green-700 max-w-2xl mx-auto">
+          Age-appropriate programs designed to support development at every stage of early childhood.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+          <img 
+            src="Photos\arin.jpg" 
+            alt="Infants being cared for by attentive caregiver in warm nurturing nursery environment"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-2">Infant Care (12 months - 18 months)</h3>
+            <p class="text-green-700 mb-4">
+              Gentle, individualized care that supports bonding, sensory development, and early milestones.
+            </p>
+            <button class="learn-more-btn text-green-600 font-semibold hover:text-green-800 transition-colors" type="button">
+              Learn More →
+            </button>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+          <img 
+            src="Photos\WhatsApp Image 2025-09-25 at 11.10.48_07432c0e.jpg" 
+            alt="Toddlers engaged in educational play activities with teachers in bright classroom"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-2">Toddler Program (18 months - 3 years)</h3>
+            <p class="text-green-700 mb-4">
+              Language development, social skills, and independence through structured play and exploration.
+            </p>
+            <button class="learn-more-btn text-green-600 font-semibold hover:text-green-800 transition-colors" type="button">
+              Learn More →
+            </button>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+          <img 
+            src="Photos\puput.jpg" 
+            alt="Preschool children learning letters and numbers in engaging educational setting"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-2">Preschool (3 - 5 years)</h3>
+            <p class="text-green-700 mb-4">
+              School readiness through literacy, math, science, and social-emotional learning activities.
+            </p>
+            <button class="learn-more-btn text-green-600 font-semibold hover:text-green-800 transition-colors" type="button">
+              Learn More →
+            </button>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-2xl overflow-hidden shadow-lg">
+          <img 
+            src="Photos\sev.jpg" 
+            alt="School age children doing homework and creative projects in after school program"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-2">Kindergarten Care (5 - 7 years)</h3>
+            <p class="text-green-700 mb-4">
+              Homework help, enrichment activities, and safe supervision for school-aged children.
+            </p>
+            <button class="learn-more-btn text-green-600 font-semibold hover:text-green-800 transition-colors" type="button">
+              Learn More →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-20 bg-green-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">What Parents Say</h2>
+        <p class="text-green-700 max-w-2xl mx-auto">
+          Hear from families who have entrusted us with their little ones.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <p class="text-green-700 mb-4">
+            "The Nesting Tree has been a blessing for our family. Our daughter loves going every day and we see her growing more confident and curious."
+          </p>
+          <h4 class="font-semibold text-green-800">– Budi Setiawan.</h4>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <p class="text-green-700 mb-4">
+            "The teachers are caring and attentive. I love the focus on creativity and nature-based learning."
+          </p>
+          <h4 class="font-semibold text-green-800">– Tasya Alaydrus.</h4>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <p class="text-green-700 mb-4">
+            "It truly feels like a second home for our little one. We couldn't ask for a better environment."
+          </p>
+          <h4 class="font-semibold text-green-800">– Rachel Magdalena.</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- employee profile-->
+  <section id="staff" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">Our Staff</h2>
+        <p class="text-green-700 max-w-2xl mx-auto">
+          Meet Our Professional Staff.
+        </p>
+      </div>
+    <div class="staff-list">
+      <div class="staff-card">
+        <img src="Photos\khairina staff.jpg" alt="Khairina" />
+        <h4>Khairina</h4>
+        <p>Public Relation</p>
+      </div>
+    <div class="staff-card">
+        <img src="Photos\DEVARA GEDE.jpg" alt="Devara" />
+        <h4>Devara</h4>
+        <p>Chief Operating Officer</p>
+      </div>
+      <div class="staff-card">
+        <img src="Photos\Untitled (1).png" alt="Sevtya" />
+        <h4>Sevtya</h4>
+        <p>Chief Executive Officer</p>
+      </div>
+      <div class="staff-card">
+        <img src="Photos\PUPUT GEDE.jpg" alt="Puput" />
+        <h4>Puput</h4>
+        <p>Chief Financial Officer</p>
+      </div>
+      <div class="staff-card">
+        <img src="Photos/sultan.jpg" alt="Sultan" />
+        <h4>Sultan</h4>
+        <p>Human Capital</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">Our Gallery</h2>
+        <p class="text-green-700 max-w-2xl mx-auto">
+          Take a closer look at our facilities through our gallery.
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <img src="Photos/ruang belajar.jpg" 
+             alt="Ruang Belajar"
+             class="rounded-xl shadow-md object-cover w-full h-64">
+        <img src="Photos/ruang bermain.jpg" 
+             alt="Ruang Bermain"
+             class="rounded-xl shadow-md object-cover w-full h-64">
+        <img src="Photos/ruang makan.jpg" 
+             alt="Ruang Makan"
+             class="rounded-xl shadow-md object-cover w-full h-64">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-green-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold text-green-800 mb-4">Get in Touch</h2>
+        <p class="text-green-700 max-w-2xl mx-auto">
+          We'd love to hear from you! Reach out to schedule a visit or ask any questions.
+        </p>
+      </div>
+      
+      <footer class="bg-green-900 text-white py-12">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
+          
+          <!-- KIRI: Info -->
+          <div class="grid grid-cols-2 gap-8">
+            <!-- ABOUT -->
+            <div>
+              <h3 class="font-bold text-lg mb-4">ABOUT</h3>
+              <ul class="space-y-2 text-gray-200">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms and Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            
+            <!-- COLLABORATION -->
+            <div>
+              <h3 class="font-bold text-lg mb-4">COLLABORATION WITH</h3>
+              <ul class="space-y-2 text-gray-200">
+                <li>Ernst & Young (EY) Indonesia</li>
+                <li>Deloitte Indonesia</li>
+                <li>PwC Indonesia</li>
+                <li>PT Astra Internasional Tbk</li>
+                <li>PT Telkom Indonesia</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- KANAN: Message Box -->
+          <div>
+            <h3 class="font-bold text-lg mb-4">Send us a Message</h3>
+            <form class="bg-white p-6 rounded-lg shadow-md">
+              <input type="text" placeholder="Your Name" 
+                     class="w-full mb-4 p-3 rounded border border-gray-300 text-black">
+              <input type="email" placeholder="Your Email" 
+                     class="w-full mb-4 p-3 rounded border border-gray-300 text-black">
+              <textarea placeholder="Your Message" rows="4" 
+                        class="w-full mb-4 p-3 rounded border border-gray-300 text-black"></textarea>
+              <button type="submit" 
+                      class="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition-colors">
+                Send Message
+              </button>
+            </form>
+          </div>
+      
+        </div>
+
+        <br>
+        <hr/>
+
+  <!-- Footer -->
+  <div class="mt-8 text-center text-gray-300 text-sm">
+    © 2025 The Nesting Tree. All Rights Reserved.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
